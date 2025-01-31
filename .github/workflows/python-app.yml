@@ -3,11 +3,7 @@
 
 name: Python application
 
-on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+on: [push]
 
 permissions:
   contents: read
@@ -29,7 +25,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        poetry install
+        poetry install --no-root
 
     - uses: pre-commit/action@v3.0.1
 
