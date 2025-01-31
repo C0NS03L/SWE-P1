@@ -2,6 +2,10 @@
 
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=C0NS03L_SWE-P1&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=C0NS03L_SWE-P1)
 
+![tests](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
+
+![linting](https://github.com/github/docs/actions/workflows/linting.yml/badge.svg)
+
 Booking system and Inventory system for Lab
 
 ## Developer Guide
